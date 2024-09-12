@@ -1,0 +1,71 @@
+body{
+  background-color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header nav ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 10rem;
+    margin-left: 30rem;
+}
+header nav ul li{
+  color: white;
+}
+header{
+  background-color: rgb(56, 54, 54);
+  padding: 30px;
+}
+header h1{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+section h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+section p{
+  
+}
+section img{
+  width: 300px;
+}
+footer{
+  background-color: rgb(32, 31, 31);
+  color: white;
+  padding: 30px;
+}
+footer h1{
+  text-align: start;
+  font-size: 30px;
+  margin-bottom: 0;
+  
+}
+footer img{
+  max-width: 50px;
+  margin: 20px;
+  flex-direction: row;
+  position: relative;
+  left: 70rem;
+}
+.paragraph1{
+  width: 100%;
+  display: flex;
+}
+.div-paragraph1{
+  max-width: 30%;
+}
+.div-paragraph2{
+  max-width: 70%;
+}
+.div-paragraph2 p{
+  max-width: 100%;
+  margin-left: 20px;
+  margin-top: 50px;
+}
